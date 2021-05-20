@@ -1,0 +1,59 @@
+.showLogin {
+    a {
+      color: #9b9b9b;
+    }
+    a.active {
+      color: #9b9b9b;
+      background: transparent;
+    }
+    .avatar {
+      height: auto;
+      width: 30px;
+      border-radius: 25px;
+      margin-right: 5px;
+    }
+    .chuaDangNhap {
+      display: inline-block;
+    }
+    .daDangNhap {
+      display: inline !important;
+      .btn.dropdown-toggle {
+        width: 140px;
+        padding: 0;
+        &::after {
+          position: absolute;
+          right: 20%;
+          top: 50%;
+        }
+        a {
+          text-align: left;
+          padding-left: 0;
+          padding-right: 25px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .dropdown-menu {
+        min-width: 100px;
+        top: 210%;
+        left: -25%;
+        border-radius: 0;
+        a {
+            text-align: left;
+            font-size: 14px;
+            line-height: 1.4;
+            padding: 10px 10px;
+            i {
+              margin-right: 5px;
+              width: 15px;
+              height: 15px;
+            }
+            &:hover {
+              background-color: #f8f9fa;
+            }
+        }
+      }
+    }
+  }
+  

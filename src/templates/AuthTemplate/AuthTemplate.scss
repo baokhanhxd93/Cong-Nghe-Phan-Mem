@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
+
+
+.auth {
+  max-height: 100vh;
+  position: relative;
+  .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100vh;
+    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+  }
+  .theme {
+    position: absolute;
+    left: 40px;
+    height: 500px;
+  }
+}
