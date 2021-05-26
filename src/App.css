@@ -1,0 +1,66 @@
+.feedback1 {
+  background-image: url(./assets/img/fb1.jpg);
+  width: 1920px;
+  height: 1080px;
+}
+.container-fluid {
+  background: snow;
+  width: 700px;
+  height: 850px;
+  position: relative;
+  top: 50px;
+}
+.titleHolder {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  padding-top: 40px;
+}
+.rating {
+  text-align: center;
+  transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  transform: scale(2.2);
+  padding-top: 20px;
+}
+.question {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  padding-top: 80px;
+}
+.input {
+  border-style: solid;
+  border-width: thin;
+  margin: auto;
+  width: 600px;
+}
+.button {
+  align-self: center;
+  width: 300px;
+  margin: auto;
+  transform: scale(2);
+  padding-top: 50px;
+}
+.feedback2 {
+  background-image: url(./assets/img/fb2.png);
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  background-size: cover;
+}
+.coutdown {
+  margin: auto;
+  padding: 80px;
+  text-align: center;
+  transform: scale(3);
+}
+.process {
+  padding: 150px;
+  transform: scale(1.4);
+}
+.orderID {
+  text-align: center;
+  padding-top: 50px;
+  font-family: cursive;
+  font-size: 30px;
+}

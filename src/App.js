@@ -8,6 +8,9 @@ import { CustomerTemplate } from './templates/CustomerTemplate/CustomerTemplate'
 import HomeAdmin from './pages/Admin/HomeAdmin';
 import FeedbackAdmin from './pages/Admin/FeedbackAdmin';
 import MenuItemAdmin from './pages/Admin/MenuItemAdmin';
+import Feedback1 from './pages/Feedback/feedback1';
+import Feedback2 from './pages/Feedback/feedback2';
+import OrderProcess from './pages/OrderProcess/orderprocess';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <AdminTemplate exact path='/admin/menuitem' component={MenuItemAdmin} />
         <UserTemplate exact path='/' component={Homepage} />
         <CustomerTemplate exact path='/customer' component={Homepage} />
+        <Feedback1 exact path='/feedback1' component={Feedback1} />
+        <Feedback2 exact path='/feedback2' component={Feedback2} />
+        <OrderProcess exact path = '/orderprocess' component={OrderProcess} />
       </Switch>
     </BrowserRouter>
   );
