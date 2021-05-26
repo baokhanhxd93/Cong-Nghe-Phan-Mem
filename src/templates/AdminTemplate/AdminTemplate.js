@@ -27,6 +27,7 @@ const AdminLayout = (props) => {
             temp.dashboard = true;
             temp.feedback = false;
             temp.menuitem = false;
+            temp.employees = false;
             setNavActive(temp);
         }
         else if (name === "feedback") {
@@ -34,6 +35,7 @@ const AdminLayout = (props) => {
             temp.dashboard = false;
             temp.feedback = true;
             temp.menuitem = false;
+            temp.employees = false;
             setNavActive(temp);
         }
         else if (name === "menuitem") {
@@ -41,6 +43,15 @@ const AdminLayout = (props) => {
             temp.dashboard = false;
             temp.feedback = false;
             temp.menuitem = true;
+            temp.employees = false;
+            setNavActive(temp);
+        }
+        else if (name === "employees") {
+            let temp = { ...navActive };
+            temp.dashboard = false;
+            temp.feedback = false;
+            temp.menuitem = false;
+            temp.employees = true;
             setNavActive(temp);
         }
     }
@@ -63,6 +74,9 @@ const AdminLayout = (props) => {
                                 </li>
                                 <li className={`nav-item ${navActive.menuitem ? 'isActive' : ''}`}>
                                     <NavLink className="nav-link " to="/admin/menuitem" onClick={() => { updateNavActive("menuitem") }}>Xem Menu</NavLink>
+                                </li>
+                                <li className={`nav-item ${navActive.employees ? 'isActive' : ''}`}>
+                                    <NavLink className="nav-link " to="/admin/employees" onClick={() => { updateNavActive("employees") }}>Quản lý nhân viên</NavLink>
                                 </li>
                             </ul>
                         </div>
