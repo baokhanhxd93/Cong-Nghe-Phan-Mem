@@ -38,7 +38,7 @@ export default function Login(props) {
     const handleChange = (event) => {
         let { name, value } = event.target;
         const newValues = { ...state.values, [name]: value };
-        //Gọi set lại state của hook
+        //Gá»i set láº¡i state cá»§a hook
         setState(
             {
                 values: newValues,
