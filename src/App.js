@@ -8,7 +8,10 @@ import { CustomerTemplate } from './templates/CustomerTemplate/CustomerTemplate'
 import HomeAdmin from './pages/Admin/HomeAdmin';
 import FeedbackAdmin from './pages/Admin/FeedbackAdmin';
 import MenuItemAdmin from './pages/Admin/MenuItemAdmin';
-import Payment from './pages/Payment/Payment';
+import Payment from './pages/Payment/PaymentUI1';
+import Payment1 from './pages/Payment/PaymentUI1';
+import Payment2 from './pages/Payment/PaymentUI2';
+import Payment3 from './pages/Payment/PaymentUI3';
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
           <AdminTemplate exact path='/admin/menuitem' component={MenuItemAdmin} />
         <UserTemplate exact path='/' component={Homepage} />
         <CustomerTemplate exact path='/customer' component={Homepage} />
-        <Payment/>
+        <Payment1/>
       </Switch>
     </BrowserRouter>
   );

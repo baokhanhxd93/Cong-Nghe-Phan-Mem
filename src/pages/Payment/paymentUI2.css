@@ -1,0 +1,29 @@
+#payment2 input
+{
+    margin-bottom: 20px;
+
+}
+
+#payment2 p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+#payment2 input
+{
+    font-size:15px;
+}
+#payment2 span
+{
+    margin-left: 5px;
+    font-size: 20px;
+}
+#btn
+{
+    padding-top:40px;
+    text-align: center;
+}
+#btn Button
+{
+    padding-bottom:15px;
+}

@@ -1,0 +1,22 @@
+.container .nganhang
+{
+    width:60%; 
+    margin: auto;
+    padding-left: 100px;
+}
+.container select
+{
+    width:100%;
+    margin-bottom: 20px;
+}
+.nganhang p
+{
+    font-weight: bold;
+    font-size:20px;
+}
+.nganhang input
+{
+    margin-bottom: 10px;
+    width: 100%;
+    border-width: 1px;
+}
